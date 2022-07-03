@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+
+This project is deployed [@React hooks app](https://react-hooks-example.vercel.app).
 ## Available Scripts
 
 In the project directory, you can run:
