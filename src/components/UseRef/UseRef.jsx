@@ -1,12 +1,12 @@
-import React from 'react';
-import CodeBg from '../CodeBg.jsx';
-import Example from '../Example.jsx';
-import { UseRefEx1str } from './UseRefEx1str.js';
-import { UseRefEx2str } from './UseRefEx2str.js';
-import UseRefEx1 from './UseRefEx1.jsx';
-import UseRefEx2 from '../UseRef/UseRefEx2.jsx';
-import { UseRefEx3str } from '../UseRef/UseRefEx3str.js';
-import UseRefEx3 from '../UseRef/UseRefEx3.jsx';
+import React from "react";
+import CodeBg from "../CodeBg";
+import Example from "../Example.jsx";
+import { UseRefEx1str } from "./UseRefEx1str.js";
+import { UseRefEx2str } from "./UseRefEx2str.js";
+import UseRefEx1 from "./UseRefEx1.jsx";
+import UseRefEx2 from "../UseRef/UseRefEx2.jsx";
+import { UseRefEx3str } from "../UseRef/UseRefEx3str.js";
+import UseRefEx3 from "../UseRef/UseRefEx3.jsx";
 
 export default function UseReducer() {
   return (

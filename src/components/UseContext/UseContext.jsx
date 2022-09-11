@@ -1,12 +1,12 @@
-import React, { useState, createContext, useContext } from 'react';
-import Example from '../Example.jsx';
-import CodeBg from '../CodeBg.jsx';
-import { UseContextEx1str } from './UseContextEx1str.js';
-import UseContextEx1 from './UseContextEx1.jsx';
+import React, { useState, createContext, useContext } from "react";
+import Example from "../Example.jsx";
+import CodeBg from "../CodeBg.tsx";
+import { UseContextEx1str } from "./UseContextEx1str.js";
+import UseContextEx1 from "./UseContextEx1.jsx";
 const UserContext = createContext();
 
 export default function UseContext() {
-  const user = 'ANUP MAHATO';
+  const user = "ANUP MAHATO";
 
   return (
     <UserContext.Provider value={user}>

@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { renderToStaticMarkup } from 'react-dom/server';
-import CodeBg from '../CodeBg';
-import './UserState.css';
-import Example from '../Example';
-import { UserStateExampleStr } from './UserStateExampleStr.js';
-import UserStateExample1 from './UserStateExample1.jsx';
+import React, { useState, useEffect } from "react";
+import { renderToStaticMarkup } from "react-dom/server";
+import CodeBg from "../CodeBg";
+import "./UserState.css";
+import Example from "../Example";
+import { UserStateExampleStr } from "./UserStateExampleStr";
+import UserStateExample1 from "./UserStateExample1";
 
-export default function UserState() {
-  const [counter, setCounter] = useState(1);
-  const [exampleComp, setExampleComp] = useState();
+const UserState: React.FC<{ className?: string }> = () => {
   // const exampleElement = renderToStaticMarkup(<UserStateExample1 />);
   return (
     <div>
@@ -31,4 +29,6 @@ export default function UserState() {
       </Example>
     </div>
   );
-}
+};
+
+export default UserState;

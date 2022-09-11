@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export default function UserStateExample1() {
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState<number>(1);
 
   return (
     <div>

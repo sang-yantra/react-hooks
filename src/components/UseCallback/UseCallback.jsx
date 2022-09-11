@@ -1,8 +1,8 @@
-import React from 'react';
-import CodeBg from '../CodeBg.jsx';
-import Example from '../Example.jsx';
-import { UseCallbackEx1str } from './UseCallbackEx1str.js';
-import UseCallbackEx1 from './UseCallbackEx1.jsx';
+import React from "react";
+import CodeBg from "../CodeBg.tsx";
+import Example from "../Example.jsx";
+import { UseCallbackEx1str } from "./UseCallbackEx1str.js";
+import UseCallbackEx1 from "./UseCallbackEx1.jsx";
 
 export default function UseReducer() {
   return (
